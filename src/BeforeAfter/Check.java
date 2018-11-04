@@ -21,7 +21,7 @@ public class Check {
 	@BeforeMethod
 	public void login() {
 		System.out.println("@BeforeMethod");
-                                                          //for git diff
+                                                         
 	}
 
 	@Test
