@@ -11,35 +11,35 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class Check {
-	
 
 	@BeforeClass
 	public void startBrowser() {
 		System.out.println("@BeforeClass");
-  
-	}
 
+	}
 
 	@BeforeMethod
-	public void login()
-	{
+	public void login() {
 		System.out.println("@BeforeMethod");
+                                                          //for git diff
+	}
+
+	@Test
+	public void FisrTest() {
+		System.out.println("@Test");
 
 	}
-	@Test
-	public void FisrTest(){
-		System.out.println("@Test");
-		// anand kumar mandal 
-	}
+
 	@AfterMethod
-	public void Firstclose(){
+	public void Firstclose() {
 		System.out.println("@AfterMethod");
-		
+
 	}
+
 	@AfterClass
 	public void closeBrowser() {
 		System.out.println("@AfterClass");
-	
-		}
+
+	}
 
 }
